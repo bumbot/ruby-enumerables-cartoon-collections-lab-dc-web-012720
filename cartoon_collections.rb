@@ -10,15 +10,13 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  is_true = false
   array.collect do |word|
     if word.length > 4
-      is_true = TRUE
-      break
+      return true
     end
   end
   
-  is_true
+  false
 end
 
 def find_the_cheese(string_array)
@@ -27,6 +25,6 @@ def find_the_cheese(string_array)
   count = 0
   
   if count < cheese_types.length do
-    if string_array.include
-  
+    if string_array.include?(cheese_types[count])
+      return true
 end
