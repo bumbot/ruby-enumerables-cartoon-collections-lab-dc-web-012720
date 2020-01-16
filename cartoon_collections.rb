@@ -11,6 +11,7 @@ end
 def long_planeteer_calls(array)
   # Your code here
   is_true = false
+  array.
   
   is_true
 end
