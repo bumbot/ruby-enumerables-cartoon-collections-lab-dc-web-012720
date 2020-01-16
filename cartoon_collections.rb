@@ -12,7 +12,7 @@ def long_planeteer_calls(array)
   # Your code here
   is_true = false
   array.collect do |word|
-    if word.
+    break true if word.length >
   end
   
   is_true
