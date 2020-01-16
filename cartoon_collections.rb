@@ -11,7 +11,9 @@ end
 def long_planeteer_calls(array)
   # Your code here
   is_true = false
-  array.
+  array.collect do |word|
+    if word.
+  end
   
   is_true
 end
