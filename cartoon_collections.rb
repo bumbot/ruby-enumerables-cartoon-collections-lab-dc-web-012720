@@ -29,4 +29,7 @@ def find_the_cheese(string_array)
       return true
     end
     count += 1
+  end
+  
+  nil
 end
