@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  
+  array.map {|name| name.}
 end
 
 def long_planeteer_calls# code an argument here
